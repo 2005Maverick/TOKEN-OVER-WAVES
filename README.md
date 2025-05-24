@@ -1,4 +1,9 @@
 # 🎵 Token over Waves: Advanced Audio Processing System
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-1.9%2B-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 <div align="center">
   <img src="AUDIO_T/MM.png" alt="Cover Image" width="500"/>
