@@ -1,7 +1,7 @@
 # 🎵 Token over Waves: Advanced Audio Processing System
 
 <div align="center">
-  <img src="assets/images/MM.png" alt="Cover Image" width="700"/>
+  <img src="AUDIO_T/assets/images/MM.png" alt="Cover Image" width="700"/>
   <br>
   <em>Figure 1: Cover image representing the Token over Waves system.</em>
 </div>
@@ -31,7 +31,7 @@ The architecture of Token over Waves is meticulously designed to capture both te
 - **Classifier Head:** The final module aggregates all extracted features and makes the real/fake prediction, outputting a confidence score and additional analysis.
 
 <div align="center">
-  <img src="assets/images/model_architecture.png" alt="Model Architecture" width="600"/>
+  <img src="AUDIO_T/assets/images/model_architecture.png" alt="Model Architecture" width="600"/>
   <br>
   <em>Figure 2: The overall architecture of the Token over Waves system, showing the dual-branch transformer encoders, cross-modal fusion, and downstream analysis modules.</em>
 </div>
@@ -45,7 +45,7 @@ The architecture of Token over Waves is meticulously designed to capture both te
 During training, the model is optimized using a combination of supervised and self-supervised objectives. The training and validation loss curves below demonstrate the model's ability to learn meaningful representations and generalize to unseen data. A steady decrease in loss, followed by convergence, indicates successful training and minimal overfitting.
 
 <div align="center">
-  <img src="assets/images/training_metrics.jpg" alt="Training Metrics" width="600"/>
+  <img src="AUDIO_T/assets/images/training_metrics.jpg" alt="Training Metrics" width="600"/>
   <br>
   <em>Figure 3: Training and validation loss curves. The model shows effective learning and convergence, with validation loss closely tracking training loss.</em>
 </div>
@@ -59,7 +59,7 @@ During training, the model is optimized using a combination of supervised and se
 The system's performance is evaluated using standard classification metrics. High accuracy, precision, recall, and F1-score reflect the model's effectiveness in distinguishing real from fake audio. These metrics are computed on a held-out test set to ensure unbiased assessment.
 
 <div align="center">
-  <img src="assets/images/evaluation_metrics.jpg" alt="Evaluation Metrics" width="600"/>
+  <img src="AUDIO_T/assets/images/evaluation_metrics.jpg" alt="Evaluation Metrics" width="600"/>
   <br>
   <em>Figure 4: Evaluation metrics for the trained model, demonstrating strong performance on the test set.</em>
 </div>
@@ -69,7 +69,7 @@ The system's performance is evaluated using standard classification metrics. Hig
 The confusion matrix provides a detailed breakdown of the model's predictions. It shows the number of true positives, true negatives, false positives, and false negatives, offering insight into the types of errors the model makes and its overall reliability.
 
 <div align="center">
-  <img src="assets/images/confusion_matrix.jpg" alt="Confusion Matrix" width="600"/>
+  <img src="AUDIO_T/assets/images/confusion_matrix.jpg" alt="Confusion Matrix" width="600"/>
   <br>
   <em>Figure 5: Confusion matrix for the test set predictions, highlighting the model's classification strengths and weaknesses.</em>
 </div>
@@ -81,7 +81,7 @@ The confusion matrix provides a detailed breakdown of the model's predictions. I
 To better understand the model's internal representations, we use t-SNE to project high-dimensional features into two dimensions. The resulting plot reveals clear separation between real and fake audio samples, indicating that the model has learned discriminative features.
 
 <div align="center">
-  <img src="assets/images/tsne_features.jpg" alt="t-SNE Features" width="600"/>
+  <img src="AUDIO_T/assets/images/tsne_features.jpg" alt="t-SNE Features" width="600"/>
   <br>
   <em>Figure 6: t-SNE visualization of the model's learned features, showing distinct clusters for real and fake audio.</em>
 </div>
@@ -91,7 +91,7 @@ To better understand the model's internal representations, we use t-SNE to proje
 This graph illustrates the distribution of emotional coherence scores across the dataset. Real audio typically exhibits smooth emotional transitions, while fake audio may show abrupt or unnatural changes. The model leverages these patterns to improve detection accuracy.
 
 <div align="center">
-  <img src="assets/images/emotional_coherence.jpg" alt="Emotional Coherence" width="600"/>
+  <img src="AUDIO_T/assets/images/emotional_coherence.jpg" alt="Emotional Coherence" width="600"/>
   <br>
   <em>Figure 7: Distribution of emotional coherence scores for real and fake audio samples, highlighting the model's ability to detect emotional inconsistencies.</em>
 </div>
@@ -101,7 +101,7 @@ This graph illustrates the distribution of emotional coherence scores across the
 Below is an example of the system's output for a test audio file. The output includes the predicted label, confidence score, and a summary of the analysis performed by each module.
 
 <div align="center">
-  <img src="assets/images/output_example.jpg" alt="Output Example" width="600"/>
+  <img src="AUDIO_T/assets/images/output_example.jpg" alt="Output Example" width="600"/>
   <br>
   <em>Figure 8: Example output from the system, showing prediction, confidence, and analysis details for a sample audio file.</em>
 </div>
