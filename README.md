@@ -1,7 +1,7 @@
 # 🎵 Token over Waves: Advanced Audio Processing System
 
 <div align="center">
-  <img src="AUDIO_T/assets/images/MM.png" alt="Cover Image" width="700"/>
+  <img src="AUDIO_T/MM.png" alt="Cover Image" width="700"/>
   <br>
   <em>Figure 1: Cover image representing the Token over Waves system.</em>
 </div>
