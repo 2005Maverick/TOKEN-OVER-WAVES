@@ -1,7 +1,7 @@
 # 🎵 Token over Waves: Advanced Audio Processing System
 
 <div align="center">
-  <img src="docs/images/architecture.png" alt="System Architecture" width="800"/>
+  <img src="AUDIO_T/assets/images/architecture.png" alt="System Architecture" width="800"/>
   <br>
   <em>State-of-the-art audio processing and analysis pipeline</em>
 </div>
