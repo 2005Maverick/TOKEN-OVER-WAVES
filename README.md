@@ -32,7 +32,7 @@ A sophisticated deep learning system for audio processing that combines transfor
 ## 🛠️ Technical Architecture
 
 <div align="center">
-  <img src="assets/images/training_metrics.jpg" alt="Processing Flow" width="600"/>
+  <img src="AUDIO_T/assets/images/training_metrics.jpg" alt="Processing Flow" width="600"/>
   <br>
   <em>End-to-end processing pipeline</em>
 </div>
@@ -41,14 +41,14 @@ A sophisticated deep learning system for audio processing that combines transfor
 
 #### t-SNE Feature Visualization
 <div align="center">
-  <img src="assets/images/tsne_features.jpg" alt="t-SNE Features" width="600"/>
+  <img src="AUDIO_T/assets/images/tsne_features.jpg" alt="t-SNE Features" width="600"/>
   <br>
   <em>t-SNE visualization of audio features</em>
 </div>
 
 #### Emotional Coherence Distribution
 <div align="center">
-  <img src="assets/images/emotional_coherence.jpg" alt="Emotional Coherence" width="600"/>
+  <img src="AUDIO_T/assets/images/emotional_coherence.jpg" alt="Emotional Coherence" width="600"/>
   <br>
   <em>Distribution of emotional coherence scores</em>
 </div>
@@ -57,14 +57,14 @@ A sophisticated deep learning system for audio processing that combines transfor
 
 #### Confusion Matrix
 <div align="center">
-  <img src="assets/images/confusion_matrix.jpg" alt="Confusion Matrix" width="600"/>
+  <img src="AUDIO_T/assets/images/confusion_matrix.jpg" alt="Confusion Matrix" width="600"/>
   <br>
   <em>Model classification performance</em>
 </div>
 
 #### Output Example
 <div align="center">
-  <img src="https://github.com/2005Maverick/TOKEN-OVER-WAVES/blob/main/assets/images/output_example.jpg" alt="Output Example" width="600"/>
+  <img src="AUDIO_T/assets/images/output_example.jpg" alt="Output Example" width="600"/>
   <br>
   <em>Example of system output and analysis</em>
 </div>
@@ -99,7 +99,7 @@ A sophisticated deep learning system for audio processing that combines transfor
 ## 📊 Performance Metrics
 
 <div align="center">
-  <img src="./AUDIO_T/assets/images/performance.png" alt="Performance Metrics" width="600"/>
+  <img src="AUDIO_T/assets/images/performance.png" alt="Performance Metrics" width="600"/>
   <br>
   <em>System performance across different metrics</em>
 </div>
