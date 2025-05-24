@@ -88,27 +88,27 @@ The system uses a sophisticated architecture combining:
 
 ### Model Performance Metrics
 
-![Evaluation Metrics](assets/images/evaluation_metrics.jpg)
+![Evaluation Metrics](AUDIO_T/assets/images/confusion_matrix.jpg)
 
 ### Training Progress
 
-![Training Metrics](assets/images/training_metrics.jpg)
+![Training Metrics](AUDIO_T/assets/images/training_metrics.jpg)
 
 ### Feature Analysis
 
 #### t-SNE Feature Visualization
-![t-SNE Features](assets/images/tsne_features.jpg)
+![t-SNE Features](AUDIO_T/assets/images/tsne_features.jpg)
 
 #### Emotional Coherence Distribution
-![Emotional Coherence](assets/images/emotional_coherence.jpg)
+![Emotional Coherence](AUDIO_T/assets/images/emotional_coherence.jpg)
 
 ### Classification Results
 
 #### Confusion Matrix
-![Confusion Matrix](assets/images/confusion_matrix.jpg)
+![Confusion Matrix](AUDIO_T/assets/images/confusion_matrix.jpg)
 
 #### Output Example
-![Output Example](assets/images/output_example.jpg)
+![Output Example](AUDIO_T/assets/images/output_example.jpg)
 
 ## 🔧 Configuration
 
