@@ -184,6 +184,6 @@ MAX_EPOCHS = 10            # Number of training epochs
 ---
 
 <div align="center">
-  <p>Made with ❤️ by the Audio Processing Team</p>
+  <p>Made By Pranav Singh Puri , Ayan Sar , Sumit Aich</p>
 </div>
 
